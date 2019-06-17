@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:layout_marginTop="40dip">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:text="Latitude: "
+            android:textSize="20dip">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="unknown"
+            android:textIsSelectable="false"
+
+            android:textSize="30dip"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout><![CDATA[
+
+    >
+
+        <TextView
+    android:id=@+id/TextView03"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="5dip"
+    android:text="Longitute: "
+    android:textSize="20dip">]]>
+
+
+<TextView
+android:id="@+id/TextView04"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="unknown"
+android:textSize="30dip"
+android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/imageViewCompass"
+        android:layout_width="wrap_content"
+        android:layout_height="137dp"
+        android:layout_below="@+id/tvHeading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="253dp"
+        android:src="@drawable/arah" />
+
+    </LinearLayout>
